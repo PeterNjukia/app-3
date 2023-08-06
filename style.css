@@ -45,12 +45,14 @@ aside {
 
 aside img {
     max-width: 100%;
-    border: 1px solid #ddd;
+    border: 1px dotted #ddd;
     border-radius: 4px;
 }
 
 form {
     width: 300px;
+    border: solid #f0f0f0;;
+    padding: 3px;
 }
 
 form label {
