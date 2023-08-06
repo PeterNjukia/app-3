@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rental Collection App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Saika Flats Digital Platform</h1>
+    </header><br>
+
+    <main>
+        <aside id="formContainer">
+            <h4>RENT COLLECTOR</h4>
+            <form id="rentalForm">
+                <label for="tenantName">Tenant Name:</label>
+                <input type="text" id="tenantName" name="tenantName" required>
+
+                <label for="houseNo">House No.:</label>
+                <input type="number" id="houseNo" name="houseNo" required>
+
+                <label for="rentPaid">Rent Paid:</label>
+                <input type="number" id="rentPaid" name="rentPaid" required>
+
+                <label for="datePaid">Date Paid:</label>
+                <input type="date" id="datePaid" name="datePaid" required>
+
+                <input type="submit" value="Generate Receipt">
+            </form>
+
+
+        <div id="output">
+            <div class="search-container">
+                <label for="searchInput">Search:</label>
+                <input type="text" id="searchInput" onkeyup="searchPayments()" placeholder="Search by Tenant Name">
+            </div>
+            <h3>Rent Payments:</h3>
+            <table id="paymentTable">
+                <tr>
+                    <th>Tenant Name</th>
+                    <th>House No.</th>
+                    <th>Rent Paid</th>
+                    <th>Date Paid</th>
+                    <th>Payment Done</th>
+                </tr>
+            </table>
+        </div>
+    </main><br>
+
+    <footer>
+        <!-- Your contacts and social media icons go here -->
+    </footer>
+
+    <script src="App.js"></script>
+</body>
+</html>
