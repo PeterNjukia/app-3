@@ -1,1 +1,1 @@
-### Go live: Live Link via https://chunuz.github.io/APP-3/
+### Go live: Live Link via https://chunuz.github.io/app-3/
